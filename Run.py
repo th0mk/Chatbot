@@ -33,7 +33,22 @@ while True:
 			if "DansGame" in message:
 				sendMessage(s, "http://i.imgur.com/XCnQzbL.png")
 				break
-			if "quit" in message:
-				sendMessage(s, "bye")
+			if "useless" in message:
+				sendMessage(s, "i know, im a useless bot FeelsBadMan")
+				break
+			if "!ding" in message:
+				sendMessage(s, "weebs (puke)")
+				break
+			if "!vanish" in message:
+				sendMessage(s, user + " just vanished! haha exposed lolol xD :tf:")
+				break
+			if "get spooked" in message:
+				sendMessage(s, "http://th0mk.github.io/paja/")
+				break
+			if "secretquitcode123" in message:
+				sendMessage(s, "bye :tf:")
+				break
+			if "secretquitcode321" in message:
+				sendMessage(s, "STOP QUITTING ME DansGame")
 				exit()
 				break
