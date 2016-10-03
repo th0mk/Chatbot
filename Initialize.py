@@ -11,7 +11,7 @@ def joinRoom(s):
 		for line in temp:
 			print(line)
 			Loading = loadingComplete(line)
-	sendMessage(s, "Successfully joined chat, epic memes incoming xDDDD")
+	sendMessage(s, "epic memes incoming xDDDD")
 
 def loadingComplete(line):
 	if("End of /NAMES list" in line):
